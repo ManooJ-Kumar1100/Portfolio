@@ -1,0 +1,417 @@
+SKELETON
+
+HTML:  line 6
+CSS:  line 207
+
+HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manooj Kumar T A | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+</head>
+
+<body>
+
+    <!-- ============ HEADER ============ -->
+    <header>
+        <div class="container nav">
+            <h2 class="logo">Manooj<span> Kumar T A</span></h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <!-- ============ HOME SECTION ============ -->
+    <section class="home" id="home">
+        <div class="container home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Manooj Kumar T A</h1>
+            <h2>Java Full-Stack Developer</h2>
+
+            <p>Computer Science Engineer with experience in backend development using Java, Spring Boot,
+                REST APIs, SQL/MariaDB, and frontend development using Angular & HTML/CSS.</p>
+
+            <div class="home-btns">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#" class="btn-outline">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about container" id="about">
+        <h2 class="section-title">About Me</h2>
+
+        <p>
+            I am a Computer Science Engineer specializing in Java Full-Stack Development.
+            I build scalable backend systems and responsive UI components using Angular.
+            Passionate about backend engineering, cloud fundamentals, and enterprise application development.
+        </p>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="skills container" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Programming</h3>
+                <p>Java · Python · JavaScript</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Backend</h3>
+                <p>Spring Boot · REST APIs · Hibernate/JPA · Node.js</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Frontend</h3>
+                <p>Angular · HTML5 · CSS3 · Bootstrap</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Databases</h3>
+                <p>MariaDB · MySQL · MongoDB</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Tools</h3>
+                <p>Postman · Git & GitHub · STS · VS Code</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Cloud</h3>
+                <p>AWS · OCI · Cloud Fundamentals</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="experience container" id="experience">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <h3>Megan Soft Pvt Ltd (Nov 2025 – Present)</h3>
+                <h4>Java Full-Stack Intern</h4>
+                <p>Working on Java, SQL, Spring Boot, MariaDB, Node.js, Angular and API development. Building mini modules for enterprise applications.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Cognizant Technology Solutions (Dec 2024 – Jul 2025)</h3>
+                <h4>Programmer Analyst Trainee (GenC)</h4>
+                <p>Built a Claim Management module using Java, Spring MVC, REST APIs, MySQL, and Postman.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>TANSAM – Siemens (Mar 2024 – Apr 2024)</h3>
+                <h4>Low-Code Developer Intern</h4>
+                <p>Developed Sales Management app using Mendix with workflow optimization.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="projects container" id="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>Claim Management System</h3>
+                <p>Developed module with Claim Registration, Tracking, REST APIs, Spring Boot, MySQL.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Driver Behaviour Analysis</h3>
+                <p>Deep learning model (AlexNet, VGG, ResNet) with 96% accuracy.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>E-commerce App (Mendix)</h3>
+                <p>Product & order management with workflow logic & data modeling.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Email Automation</h3>
+                <p>Automated communication workflow using RPA tools.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Sentiment Analysis</h3>
+                <p>ML model (Python, NLTK, Scikit-learn) for polarity classification.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="education container" id="education">
+        <h2 class="section-title">Education</h2>
+
+        <ul class="edu-list">
+            <li><strong>B.E. Computer Science Engineering</strong><br>Panimalar Engineering College, CGPA: 7.30 (2025)</li>
+            <li>Class 12 – 77% (2021)</li>
+            <li>Class 10 – 73% (2019)</li>
+        </ul>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact container" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <p><i class="uil uil-phone"></i> +91 9150608170</p>
+        <p><i class="uil uil-envelope"></i> manoojezhil@gmail.com</p>
+        <p><i class="uil uil-map-marker"></i> Madurai, Tamil Nadu, India</p>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/manooj-kumar-t-a"><i class="uil uil-linkedin"></i></a>
+            <a href="#"><i class="uil uil-github"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Manooj Kumar T A. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+CSS:
+
+
+/* ============ GENERAL ============ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    color: #222;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 40px 0 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #0a3d62;
+}
+
+/* ============ NAVBAR ============ */
+header {
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.logo span {
+    color: #0a3d62;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #222;
+}
+
+.nav-links a:hover {
+    color: #0a3d62;
+}
+
+/* ============ HOME ============ */
+.home {
+    background: #eaf0f7;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 42px;
+    margin: 10px 0;
+}
+
+.home h2 {
+    color: #3c6382;
+    font-size: 24px;
+}
+
+.home p {
+    width: 60%;
+    margin: 15px auto;
+    line-height: 1.6;
+    color: #444;
+}
+
+.btn, .btn-outline {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn {
+    background: #0a3d62;
+    color: #fff;
+}
+
+.btn-outline {
+    border: 2px solid #0a3d62;
+    color: #0a3d62;
+}
+
+.btn:hover, .btn-outline:hover {
+    opacity: 0.8;
+}
+
+/* ============ ABOUT ============ */
+.about p {
+    line-height: 1.7;
+    text-align: center;
+    color: #444;
+}
+
+/* ============ SKILLS ============ */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: #fff;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.skill-card h3 {
+    margin-bottom: 10px;
+}
+
+/* ============ EXPERIENCE ============ */
+.timeline-item {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.timeline-item h3 {
+    font-size: 20px;
+}
+
+/* ============ PROJECTS ============ */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+/* ============ EDUCATION ============ */
+.edu-list {
+    list-style: none;
+    padding: 10px;
+}
+
+.edu-list li {
+    margin-bottom: 12px;
+}
+
+/* ============ CONTACT ============ */
+.contact p {
+    text-align: center;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.social-links i {
+    font-size: 26px;
+    margin: 0 8px;
+    cursor: pointer;
+    color: #0a3d62;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #fff;
+}
